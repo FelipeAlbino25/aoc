@@ -15,8 +15,8 @@ Em geral, as simulações funcionais podem todas ser realizada em ambiente **Lin
 
 ## Kit de FPGA
 
-Para sintetizar cada laboratório e fazer o download para a placa, digite `..\make_wannabe.bat` (*Windows*) ou `make -f ../Makefile` (*Linux*) **dentro do diretório** do respectivo laboratório (não nesta pasta, pois os comandos fazem referência ao nível superior). 
+Para sintetizar cada laboratório e fazer o download para a placa, digite `..\make_wannabe.bat` (*Windows*) ou `make -f ../Makefile` (*Linux*) **dentro do diretório** do respectivo laboratório (não [nesta pasta](https://github.com/menotti/aoc/blob/main/labs/), pois os comandos fazem referência ao nível superior). 
 
 ### DE0-CV
 
-Consulte o [manual do kit](DE0_CV_User_Manual.pdf) para compreender como usar cada recurso. Um [arquivo de pinos](DE0_CV.qsf) é usado para mapear as entradas e saídas.
+Consulte o [manual do kit](https://github.com/menotti/aoc/blob/main/labs/DE0_CV_User_Manual.pdf) para compreender como usar cada recurso. Um [arquivo de pinos](https://github.com/menotti/aoc/blob/main/labs/DE0_CV.qsf) é usado para mapear as entradas e saídas.
