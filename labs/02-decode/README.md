@@ -67,7 +67,7 @@ classDef Adivinhar fill:#cce5ff,stroke:#004085,stroke-width:2px;
 
 Procure usar programas com instruções bem diversas, por exemplo:
 
-```assembly 
+```asm 
 _start:
     # R-type: registradores
     add     x5, x1, x2         # R: rd=x5, rs1=x1, rs2=x2, funct3=000, funct7=0000000
