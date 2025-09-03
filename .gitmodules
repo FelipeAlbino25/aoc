@@ -7,3 +7,6 @@
 [submodule "sim/02-rf-test-bench"]
 	path = sim/02-rf-test-bench
 	url = git@github.com:DC-UFSCar/rf-test-bench.git
+[submodule "labs/02-decode-game"]
+	path = labs/02-decode-game
+	url = git@github.com:DC-UFSCar/decode-game.git
