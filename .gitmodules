@@ -10,3 +10,6 @@
 [submodule "labs/02-decode-game"]
 	path = labs/02-decode-game
 	url = https://github.com/DC-UFSCar/decode-game.git
+[submodule "sim/03-string-asm"]
+	path = sim/03-string-asm
+	url = git@github.com:DC-UFSCar/string-asm.git
