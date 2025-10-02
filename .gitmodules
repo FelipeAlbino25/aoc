@@ -13,3 +13,9 @@
 [submodule "sim/03-string-asm"]
 	path = sim/03-string-asm
 	url = git@github.com:DC-UFSCar/string-asm.git
+[submodule "sim/04-riscv-alu"]
+	path = sim/04-riscv-alu
+	url = git@github.com:DC-UFSCar/riscv-alu.git
+[submodule "sim/05-riscv-mono"]
+	path = sim/05-riscv-mono
+	url = git@github.com:DC-UFSCar/riscv-mono
