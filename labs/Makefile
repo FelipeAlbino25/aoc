@@ -158,3 +158,14 @@ program: all $(PROJECT).sof
 
 program-pof: $(PROJECT).pof
 	$(QUARTUS_PGM) $(PGM_ARGS) -o "BVP;$(PROJECT).pof"
+
+###################################################################
+# Simulation with iverilog
+###################################################################
+SIM = iverilog
+SIM_ARGS = -g2012 -Wall
+SIM_TOP = test
+SIM_SRCS = $(wildcard ./*.sv) $(wildcard ./*.v)
+sim: $(SIM_SRCS)
+	$(SIM) $(SIM_ARGS) -s $(SIM_TOP) $(SIM_SRCS)
+	./a.out

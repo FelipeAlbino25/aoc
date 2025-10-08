@@ -1,5 +1,4 @@
 module rom (
-  input  logic        clk,
   input  logic [31:0] a,
   output logic [31:0] rd);
 
