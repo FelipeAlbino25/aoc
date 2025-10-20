@@ -1,11 +1,13 @@
 @echo off
 setlocal
-set QUARTUS_PATH=C:\intelFPGA\23.1std\quartus\bin64\
+rem set QUARTUS_PATH=C:\intelFPGA\23.1std\quartus\bin64\
+set QUARTUS_PATH=c:\altera\13.0sp1\quartus\bin64\
 set FAMILY="Cyclone V"
 set PART=5CEBA4F23C7
 set BOARDFILE=..\DE0_CV.qsf
 set SRCS="*.sv *.v"
-set QUARTUS_ARGS=--64bit
+rem set QUARTUS_ARGS=--64bit
+set QUARTUS_ARGS=
 
 %QUARTUS_PATH%quartus_sh.exe %QUARTUS_ARGS% --prepare -f %FAMILY% -t top project
 if  errorlevel 1 goto ERROR
