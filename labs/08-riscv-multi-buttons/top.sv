@@ -14,13 +14,13 @@ module top(
   assign reset = ~KEY[0]; // active low
     
   // microprocessor
-  riscvmono cpu(clk, reset, pc, instr, addr, writedata, memwrite, readdata);
+  riscvmulti cpu(clk, reset, pc, instr, addr, writedata, memwrite, readdata);
 
   // instructions memory 
-  rom instr_mem(pc, instr);
+  //rom instr_mem(pc, instr);
 
   // data memory 
-  ram data_mem(clk, memwrite & isRAM, addr, writedata, readdata);
+  ram data_mem(clk, memwrite, addr, writedata, readdata);
 
   // memory-mapped i/o
   wire isIO  = addr[8]; // 0x0000_0100
